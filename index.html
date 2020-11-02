@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>News App</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+
+
+    <h1 class="text-center m-4" id="title"> PRIMARY NEWS </h1>
+  
+    
+
+    <ul class="nav nav-tabs" style="color: black;">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#aNews">All Categories</a>
+      </li>
+      <li class="nav-item" id="eTab">
+        <a class="nav-link" data-toggle="tab" href="#eNews">Entertainment</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#sNews">Sports</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#tNews">Technology</a>
+      </li>
+
+      <li class="form ml-auto">
+        <form class="form-inline">
+          <div class="input-field">
+            <input type="text" id="searchquery" placeholder="Search">
+          </div>
+          
+          <div class="row">
+            <button type="button" class="btn btn-default" id="searchbtn" style="box-shadow: none;">
+              <i class="fa fa-search m-2 p-0" style="font-size:18px"></i>
+            </button>
+
+            
+          </div>
+        </form>
+      </li>
+    </ul>
+
+    
+    
+    <div class="tab-content p-0">
+      <div id="loader" style="display: none;">
+        <div class="spinner-border"> 
+          <div class="indeterminate"></div>
+        </div>
+      </div>
+      <div class="tab-pane container active fade show" id="aNews"></div>
+      <div class="tab-pane container fade" id="eNews"></div>
+      <div class="tab-pane container fade" id="sNews"></div>
+      <div class="tab-pane container fade" id="tNews"></div>
+    </div>
+
+    
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
