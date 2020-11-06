@@ -21,9 +21,7 @@ a:hover {
 }
 
 .nav-item .active {
-  /* position: absolute; */
   border-bottom:  0px solid white;
-  /* padding-bottom: 10px; */
 }
 
 .nav-item a {
@@ -36,6 +34,7 @@ a:hover {
 
 .tab-pane {
   background-color: white;
+  margin: 0px;
 }
 
 .article {
@@ -44,10 +43,6 @@ a:hover {
 
 .article-title {
   font-size: 30px;
-}
-
-.article-title .no-result{
-  padding: 20px;
 }
 
 .article-content {
