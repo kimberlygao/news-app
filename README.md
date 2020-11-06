@@ -1,11 +1,9 @@
-# news-app
-
-#Capital One News App Project
-A user-friendly web app with top news headlines in Entertainment, Sports, and Technology. On default, articles from all three categories are auto-generated and shown to the user for easy browsing. The web app also allows for simple searching in all three categories which are displayed accordingly!
+# Capital One News App Project
+A user-friendly web app with top news headlines in Entertainment, Sports, and Technology. On default, articles from all three categories are auto-generated and shown to the user for easy browsing. The web app also allows for simple searching in all three categories which are displayed accordingly.
 
 Deployed Site: https://kimberlygao.github.io/news-app/
 
-#Challenge Prompt
+# Challenge Prompt
 The internet is an unlimited source of information. We want an easy way to sort through and find news articles specific to the following three categories: 
 
 1. Entertainment 
