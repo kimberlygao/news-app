@@ -1,3 +1,7 @@
+html {
+  overflow-y: scroll;
+}
+
 body {
   background-color: #F7F2EF;
   font-family: 'Open Sans', sans-serif;
@@ -27,7 +31,9 @@ a:hover {
 
 .nav-item a {
   color: #C5A586;
+  background-color: #fbf8f6;
 }
+
 
 .tab-content {
   border: 1px solid #dee2e6;
@@ -53,6 +59,11 @@ a:hover {
 .article-content a {
   color: #C5A586;
 }
+
+img:hover {
+  transform: scale(1.02);
+}
+
 
 
 .nav-item {

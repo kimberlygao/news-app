@@ -78,7 +78,7 @@ function getNews(search, category, id) {
           content = content.substring(0, lastSpace) +  `...<a class="article-link" href="${articles[i].url}" target="_blank" rel="noopner noreferrer">continue reading</a>`;
         }
         else
-          content = "No content available, please click on the title for more information."
+          content = `No content available, please click <a class="article-link" href="${articles[i].url}" target="_blank" rel="noopner noreferrer">here<a> for more information.`;
 
         //check if image needs to be replaced
         let imageURL = articles[i].urlToImage;
@@ -106,7 +106,7 @@ function getNews(search, category, id) {
           <p class="article-date font-italic">${date}</p>
           <div class="row d-flex">
             <div class="col-sm-4 image-container">
-              <img class="article-img" src="${imageURL}" style="width: 100%;">
+              <a href="${articles[i].url}" target="_blank" rel="noopner noreferrer"><img class="article-img" src="${imageURL}" style="width: 100%;"></a>
             </div>
             <div class="col-sm-8">
               <p class="article-content">${content}</p>
