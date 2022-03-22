@@ -42,11 +42,11 @@ function getNews(search, category, id) {
 
   if(search == "") { //empty search query
     showNum = false;
-    url = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=78b9d599c4f94f8fa3afb1a5458928d6`;
+    url = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=1b74d5f6d70c485fa17b29dcddbf3555`;
   }
   else { //non empty query
     showNum = true;
-    url = `https://newsapi.org/v2/top-headlines?q=${search}&country=us&category=${category}&apiKey=78b9d599c4f94f8fa3afb1a5458928d6`;
+    url = `https://newsapi.org/v2/top-headlines?q=${search}&country=us&category=${category}&apiKey=1b74d5f6d70c485fa17b29dcddbf3555t`;
   }
 
   $.ajax({
